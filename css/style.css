@@ -1,0 +1,113 @@
+.container {
+    width: 720px;
+    margin: 35px 210px ;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+
+div {
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration: underline;
+    }
+
+a:visited {
+    color: #1a0dab;;
+    }
+
+.search .input {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 0 -16px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px 2px rgba(34, 60, 80, 0.2);
+    border: none;
+}
+
+.search .input:focus {
+    outline: none;
+}
+
+.search .input:hover {
+    box-shadow: 0px 3px 10px 5px rgba(34, 60, 80, 0.2);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    border-bottom: rgb(214, 214, 214) 1px solid;
+}
+
+.nav .item  {
+    display: flex;
+    padding: 12px;
+    font-size: 16px;
+
+}
+.nav .item:hover {
+    cursor: pointer;
+}
+
+.nav .item:last-child {
+    margin-left: auto;
+}
+
+.nav .item.active {
+    border-bottom: royalblue 4px solid;
+}
+
+.nav .item svg {
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+    filter: grayscale(2);
+}
+
+.nav .item.active svg {
+    filter: none;
+}
+
+.nav .item svg:hover {
+    filter: none;
+}
+
+.results {
+    margin-top: 23px;
+}
+
+.result .info {
+    font-size: 16px;
+    color: #888;
+}
+
+.result .link {
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+.result .translate {
+    margin-left: 25px;
+    font-size: 16px;
+    color: #1a0dab;
+}
+
+.result .translate:visited {
+    color: #1a0dab;
+}
+
+.result .header {
+    margin-top: 7px;
+    font-size: 26px;
+}
+
+.result .descr {
+    margin-top: 7px;
+    font-size: 18px;
+}
